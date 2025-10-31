@@ -7,17 +7,10 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="brand">
-      <img id="logo" src="assets/logo.png" alt="Logo Girassol Freitas" />
-      <div>
-        <h1>Girassol Freitas - Assessoria Pedagógica Inclusiva</h1>
-        <p>Práticas, projetos e políticas de educação especial inclusiva</p>
-      </div>
-    </div>
-  </header>
 
 <div class="header">
-    <nav class="nav">
+  <h1>Girassol Freitas - Assessoria Pedagógica Inclusiva</h1>
+  <nav class="nav">
     <a href="index.html">Início</a>
     <a href="about.html">Sobre</a>
     <a href="services.html">Serviços</a>
@@ -45,7 +38,7 @@
     </div>
     <div class="card">
       <h3>Perfil da Diretora</h3>
-      <img src="assets/images/WhatsApp Image 2025-10-31 at 09.43.47.jpeg" alt="Aline galeotti" class="profile-img">
+      <img src="assets/images/WhatsApp Image 2025-10-31 at 09.43.47.jpeg" alt="Aline Galeotti" class="profile-img">
       <p><strong>Aline Apª de Freitas Coutinho Galeotti</strong> — Mestre em Educação Especial, com 25+ anos de experiência. Atua com formação e assessoria para inclusão escolar.</p>
       <p><a href="about.html">Saiba mais</a></p>
     </div>
@@ -65,22 +58,5 @@
   </div>
 </footer>
 <script src="js/main.js"></script>
-<script>
-    // Pequeno script para adaptar comportamentos (ex.: reduzir texto em telas pequenas)
-    (function(){
-      function adapt(){
-        document.documentElement.style.setProperty('--gap', window.innerWidth < 480 ? '12px' : '18px');
-      }
-      window.addEventListener('resize', adapt);
-      adapt();
-    })();
-  </script>
-   /* Mobile adjustments */
-    @media (max-width:480px){
-      .site-header{padding:12px}
-      .brand h1{font-size:15px}
-      .laws{flex-basis:auto}
-      .project-thumb{width:96px;height:72px}
-    }
 </body>
 </html>
