@@ -1,4 +1,4 @@
-# Girassol Freitas - Site para GitHub Pages
+# Girassol Freitas - Um projeto dedicado à educação inclusiva, promovendo igualdade, respeito e oportunidades para todos os estudantes.
 
 Este repositório contém um site estático pronto para publicar no GitHub Pages.
 
