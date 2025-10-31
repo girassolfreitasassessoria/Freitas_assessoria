@@ -65,5 +65,22 @@
   </div>
 </footer>
 <script src="js/main.js"></script>
+<script>
+    // Pequeno script para adaptar comportamentos (ex.: reduzir texto em telas pequenas)
+    (function(){
+      function adapt(){
+        document.documentElement.style.setProperty('--gap', window.innerWidth < 480 ? '12px' : '18px');
+      }
+      window.addEventListener('resize', adapt);
+      adapt();
+    })();
+  </script>
+   /* Mobile adjustments */
+    @media (max-width:480px){
+      .site-header{padding:12px}
+      .brand h1{font-size:15px}
+      .laws{flex-basis:auto}
+      .project-thumb{width:96px;height:72px}
+    }
 </body>
 </html>
